@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Elena Krasnoglazova — Senior CRM Manager focused on monetization, lifecycle experiments, retention and incremental revenue." />
+  <meta name="theme-color" content="#0b0b0d" />
+  <title>Elena Krasnoglazova — CRM Monetization & Lifecycle</title>
+  <style>
+    :root{
+      --bg:#0b0b0d;--panel:#131317;--panel2:#19191f;--text:#f5f4ef;--muted:#b9b7c2;
+      --line:#2a2932;--violet:#8d6cff;--violet2:#c5b7ff;--green:#5df28b;--green2:#baf7cc;
+      --cream:#f2efe7;--ink:#101014;--danger:#ff7a6f;--max:1180px;--r:28px;
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.5}
+    a{color:inherit;text-decoration:none} img{max-width:100%;display:block} button{font:inherit}
+    .shell{width:min(var(--max),calc(100% - 40px));margin:0 auto}.section{padding:92px 0}.eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:0 0 18px}.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--muted)}
+    .header{position:sticky;top:0;z-index:40;background:rgba(11,11,13,.78);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.06)}.header-inner{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:900;letter-spacing:-.04em;font-size:22px}.brand span{color:var(--violet)}.nav{display:flex;gap:24px;align-items:center;font-size:14px;color:#d7d5dd}.nav a:hover{color:white}.nav .cta{padding:10px 14px;border:1px solid var(--line);border-radius:999px;background:#15151a}
+    .hero{padding:86px 0 54px;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;inset:-280px -220px auto auto;width:700px;height:700px;background:radial-gradient(circle,rgba(141,108,255,.23),transparent 63%);pointer-events:none}.hero-grid{display:grid;grid-template-columns:1.35fr .85fr;gap:56px;align-items:start}.hero h1{font-size:clamp(54px,7vw,96px);line-height:.95;letter-spacing:-.065em;margin:0 0 28px;max-width:900px}.hero h1 em{font-style:normal;color:var(--violet2)}.lead{font-size:20px;color:#d1cfda;max-width:780px;margin:0 0 30px}.tagline{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}.tag{border:1px solid var(--line);background:#121217;border-radius:999px;padding:9px 12px;font-size:13px;color:#d8d6df}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 18px;border-radius:999px;font-weight:750;font-size:14px}.btn.primary{background:var(--text);color:var(--ink)}.btn.secondary{border:1px solid var(--line);background:#141419}.hero-side{border:1px solid var(--line);border-radius:var(--r);padding:24px;background:linear-gradient(180deg,#17171d,#101014)}.hero-side h3{font-size:22px;margin:0 0 8px}.hero-side p{color:var(--muted);margin:0 0 22px}.score-list{display:grid;gap:14px}.score{padding:16px;border-radius:18px;background:#0f0f13;border:1px solid #24232b}.score strong{display:block;font-size:36px;line-height:1;letter-spacing:-.05em;margin-bottom:7px}.score span{display:block;color:#c9c7d0;font-size:13px}.score.violet strong{color:var(--violet2)}.score.green strong{color:var(--green)}
+    .impact{padding:22px 0 64px}.impact-grid{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:24px;overflow:hidden;background:#101014}.impact-item{padding:24px 22px;border-right:1px solid var(--line)}.impact-item:last-child{border-right:0}.impact-item strong{display:block;font-size:34px;letter-spacing:-.05em;line-height:1;margin-bottom:8px}.impact-item span{font-size:13px;color:var(--muted)}
+    .section-head{display:grid;grid-template-columns:.7fr 1.3fr;gap:30px;margin-bottom:42px}.section-head h2{font-size:clamp(36px,5vw,62px);letter-spacing:-.055em;line-height:1.02;margin:0}.section-head p:last-child{color:var(--muted);font-size:17px;margin:0;max-width:650px;align-self:end}
+    .monetization-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.mon-card{min-height:210px;border:1px solid var(--line);border-radius:22px;padding:22px;background:#121217}.mon-card span{font-size:12px;color:var(--muted);font-weight:800}.mon-card h3{font-size:22px;margin:42px 0 10px;letter-spacing:-.025em}.mon-card p{color:var(--muted);font-size:14px;margin:0}.mon-card:nth-child(1){background:linear-gradient(160deg,#1e173b,#121217)}.mon-card:nth-child(2){background:linear-gradient(160deg,#12311c,#121217)}
+    .work{background:#f1eee7;color:#101014}.work .eyebrow,.work .kicker{color:#6d6875}.work .section-head p:last-child{color:#5f5b66}.case{background:white;border:1px solid #dbd6ce;border-radius:30px;padding:34px;margin-bottom:26px}.case-top{display:grid;grid-template-columns:1.35fr .65fr;gap:36px;align-items:start}.case h3{font-size:clamp(34px,4.5vw,58px);letter-spacing:-.055em;line-height:1.02;margin:8px 0 18px}.case-summary{font-size:17px;color:#595563;max-width:760px}.case-result{border-radius:24px;padding:24px;background:#15131b;color:white;min-height:190px;display:flex;flex-direction:column;justify-content:space-between}.case-result.green{background:#102117}.case-result span{font-size:12px;color:#c8c3d0;text-transform:uppercase;letter-spacing:.11em}.case-result strong{font-size:58px;letter-spacing:-.07em;line-height:.95}.case-result small{font-size:14px;color:#ddd9e5}.chips{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0 30px}.chip{padding:8px 10px;border-radius:999px;background:#f0edf4;color:#4c4654;font-size:12px;font-weight:700}
+    .story-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0 28px}.story{border:1px solid #e4dfd8;border-radius:18px;padding:18px;background:#faf8f3}.story strong{display:block;font-size:13px;margin-bottom:7px}.story p{font-size:13px;color:#625d67;margin:0}.story b{color:#111}
+    .result-row{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0 30px}.result-mini{border-radius:18px;padding:18px;background:#111;color:white}.result-mini strong{font-size:32px;letter-spacing:-.05em;display:block}.result-mini span{font-size:12px;color:#c9c5cf}.gallery-head{display:flex;justify-content:space-between;gap:16px;align-items:end;margin:30px 0 14px}.gallery-head h4{font-size:24px;margin:2px 0 0}.gallery-head p{font-size:13px;color:#706b75;margin:0}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.shot{border:1px solid #ded9d0;border-radius:18px;overflow:hidden;background:#f5f3ee;padding:0;cursor:zoom-in;min-height:240px}.shot img{width:100%;height:100%;object-fit:cover;object-position:top}.shot.flow{grid-column:span 2;aspect-ratio:16/7}.shot.flow img{object-fit:contain;background:#fff}.shot.email{aspect-ratio:3/4}.shot.email img{object-fit:cover;object-position:top}.shot:hover{transform:translateY(-2px);transition:.2s ease;box-shadow:0 10px 26px rgba(0,0,0,.08)}
+    .proof{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}.proof-card{border:1px solid #e3ddd5;border-radius:20px;padding:22px;background:#fbf9f5}.proof-card h4{font-size:22px;margin:4px 0 12px}.proof-card p{font-size:14px;color:#615c66;margin:0}.logic{display:grid;gap:9px;margin-top:16px}.logic div{display:grid;grid-template-columns:110px 1fr;gap:12px;font-size:13px}.logic b{color:#19151e}.logic span{color:#6a6570}
+    .secondary-cases{display:grid;grid-template-columns:1fr 1fr;gap:16px}.mini-case{border:1px solid #dcd7ce;border-radius:24px;background:white;padding:26px}.mini-case strong.metric{display:block;font-size:46px;letter-spacing:-.06em;line-height:1;margin:16px 0 8px}.mini-case h3{font-size:28px!important;margin:0 0 10px!important}.mini-case p{color:#5f5a65;margin:0}
+    .approach-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.step{padding:22px;border:1px solid var(--line);border-radius:22px;background:#121217}.step .num{font-size:12px;color:var(--violet2);font-weight:900}.step h3{font-size:22px;margin:36px 0 10px}.step p{font-size:14px;color:var(--muted);margin:0}.stack{margin-top:26px;border:1px solid var(--line);border-radius:24px;padding:24px;background:#111115}.stack-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:28px}.stack h3{font-size:24px;margin:0 0 10px}.stack p{font-size:14px;color:var(--muted);margin:0}.stack-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}.stack-list span{border:1px solid #2b2a33;background:#17171c;border-radius:999px;padding:8px 10px;font-size:12px;color:#d6d3de}
+    .fit{background:linear-gradient(180deg,#111116,#0b0b0d)}.fit-box{border:1px solid var(--line);border-radius:28px;padding:34px;display:grid;grid-template-columns:.9fr 1.1fr;gap:36px;background:linear-gradient(135deg,rgba(141,108,255,.12),rgba(93,242,139,.06))}.fit-box h2{font-size:44px;letter-spacing:-.05em;line-height:1.05;margin:8px 0}.fit-box p{color:var(--muted)}.fit-list{display:grid;gap:12px}.fit-item{display:grid;grid-template-columns:36px 1fr;gap:12px;align-items:start;padding:14px;border:1px solid #2d2c35;border-radius:16px;background:rgba(15,15,19,.65)}.fit-item b{display:block;margin-bottom:3px}.fit-item span:first-child{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:#1f1d2b;color:var(--violet2);font-weight:900}.fit-item p{margin:0;font-size:13px}
+    .footer{padding:72px 0 40px}.footer-grid{display:grid;grid-template-columns:1fr auto;gap:30px;align-items:end;border-top:1px solid var(--line);padding-top:34px}.footer h2{font-size:clamp(40px,6vw,72px);letter-spacing:-.06em;line-height:1;margin:0 0 14px}.footer p{color:var(--muted);margin:0}.footer-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+    .lightbox{position:fixed;inset:0;background:rgba(5,5,7,.92);display:none;place-items:center;padding:32px;z-index:100}.lightbox.open{display:grid}.lightbox img{max-width:min(1400px,95vw);max-height:90vh;object-fit:contain;border-radius:14px}.close{position:fixed;top:18px;right:20px;width:42px;height:42px;border-radius:50%;border:1px solid #3a3942;background:#16161c;color:white;cursor:pointer;font-size:22px}
+    @media (max-width:900px){.hero-grid,.case-top,.section-head,.fit-box,.stack-grid{grid-template-columns:1fr}.hero-side{max-width:none}.impact-grid{grid-template-columns:1fr 1fr}.impact-item:nth-child(2){border-right:0}.impact-item:nth-child(-n+2){border-bottom:1px solid var(--line)}.monetization-grid,.approach-grid{grid-template-columns:1fr 1fr}.story-grid{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr 1fr}.shot.flow{grid-column:span 2}.secondary-cases{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.footer-actions{justify-content:flex-start}.nav a:not(.cta){display:none}}
+    @media (max-width:600px){.shell{width:min(100% - 24px,var(--max))}.section{padding:66px 0}.hero{padding-top:58px}.hero h1{font-size:52px}.lead{font-size:17px}.impact-grid,.monetization-grid,.approach-grid,.story-grid,.result-row,.gallery,.proof{grid-template-columns:1fr}.impact-item{border-right:0;border-bottom:1px solid var(--line)!important}.impact-item:last-child{border-bottom:0!important}.shot.flow{grid-column:span 1}.case{padding:22px;border-radius:24px}.case-result strong{font-size:50px}.fit-box{padding:22px}.footer h2{font-size:48px}}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top">EK<span>.</span></a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#work">Cases</a><a href="#approach">Method</a><a href="#fit">Monetization fit</a>
+        <a class="cta" href="assets/Elena_Krasnoglazova_CRM_Manager.pdf" target="_blank" rel="noopener">Resume ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div>
+          <p class="eyebrow">SENIOR CRM MANAGER · MONETIZATION & LIFECYCLE</p>
+          <h1>I turn user behavior into <em>incremental revenue.</em></h1>
+          <p class="lead">I build and optimize CRM monetization journeys across subscription and transactional products — from paid conversion and upsell to repeat purchase, renewal, anti-churn and high-value customer retention.</p>
+          <div class="actions"><a class="btn primary" href="#work">View monetization cases</a><a class="btn secondary" href="mailto:elenkar14@gmail.com">Contact me</a></div>
+          <div class="tagline"><span class="tag">7+ years in CRM</span><span class="tag">Hands-on execution</span><span class="tag">Control groups</span><span class="tag">Lifecycle experiments</span><span class="tag">Subscription products</span></div>
+        </div>
+        <aside class="hero-side">
+          <p class="kicker">What I optimize for</p>
+          <h3>Business metrics first.</h3>
+          <p>Email and push are delivery mechanisms. The goal is monetization: paid conversion, ARPU/ARPPU, repeat purchase, retention and LTV.</p>
+          <div class="score-list">
+            <div class="score violet"><strong>+10%</strong><span>incremental revenue from a new email monetization channel, measured against a control group</span></div>
+            <div class="score green"><strong>+18%</strong><span>repeat purchases from cascading lifecycle scenarios</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="impact">
+      <div class="shell impact-grid">
+        <div class="impact-item"><strong>+10%</strong><span>incremental revenue · new email channel</span></div>
+        <div class="impact-item"><strong>+18%</strong><span>repeat purchases · cross-channel lifecycle</span></div>
+        <div class="impact-item"><strong>+12%</strong><span>retention · RFM + anti-churn</span></div>
+        <div class="impact-item"><strong>+7%</strong><span>AOV · premium loyalty lifecycle</span></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell">
+        <div class="section-head"><div><p class="eyebrow">MONETIZATION LENS</p><h2>Where I look for growth.</h2></div><p>I start with the user journey and the business metric, then choose the segment, trigger, channel and experiment design. I do not optimize CRM around opens alone.</p></div>
+        <div class="monetization-grid">
+          <article class="mon-card"><span>01</span><h3>Paid conversion</h3><p>Recover high-intent users after product or paywall friction with behavior-based timing and eligibility checks.</p></article>
+          <article class="mon-card"><span>02</span><h3>Upsell & cross-sell</h3><p>Use context, purchase history and product usage to surface the next relevant paid value.</p></article>
+          <article class="mon-card"><span>03</span><h3>Repeat purchase</h3><p>Build cascades and lifecycle triggers that create the next transaction instead of relying on broad campaigns.</p></article>
+          <article class="mon-card"><span>04</span><h3>Retention & high-value users</h3><p>Use RFM, churn signals and value-based segments to protect customer value and extend the lifecycle.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section work">
+      <div class="shell">
+        <div class="section-head"><div><p class="eyebrow">SELECTED CASES</p><h2>Monetization work with measurable business impact.</h2></div><p>These cases show how I move from data to hypothesis, build the journey hands-on and evaluate whether the change created incremental value.</p></div>
+
+        <article class="case">
+          <div class="case-top">
+            <div><p class="kicker">01 · INSTORIES · SUBSCRIPTION SAAS</p><h3>Built a new incremental revenue channel from zero.</h3><p class="case-summary">Instories is an international subscription app for AI content creation. I launched the email channel and sending infrastructure from scratch, connected it to the lifecycle, and scaled it as a monetization channel across activation, trial, upsell, renewal and win-back.</p></div>
+            <aside class="case-result"><span>Business result</span><strong>+10%</strong><small>incremental revenue, measured against a control group</small></aside>
+          </div>
+          <div class="chips"><span class="chip">Email monetization</span><span class="chip">Pushwoosh</span><span class="chip">Amplitude</span><span class="chip">HTML/CSS</span><span class="chip">Control group</span><span class="chip">Deliverability</span><span class="chip">Subscription lifecycle</span></div>
+
+          <div class="story-grid">
+            <div class="story"><strong>Business problem</strong><p>Email was not yet a mature revenue channel. The opportunity was to create additional value from users already moving through the product lifecycle.</p></div>
+            <div class="story"><strong>What I used</strong><p>Behavioral events, funnel data, subscription state and lifecycle stage to identify when a CRM touch could change the next paid action.</p></div>
+            <div class="story"><strong>What I built</strong><p>Infrastructure, segments, triggers, journeys, responsive templates, localization logic, tracking and QA — <b>hands-on</b>.</p></div>
+            <div class="story"><strong>How I measured</strong><p>Business impact was evaluated against a <b>control group</b>, with incremental revenue as the outcome rather than attributed clicks alone.</p></div>
+          </div>
+
+          <div class="proof">
+            <div class="proof-card"><p class="kicker">Lifecycle architecture</p><h4>From user state to monetization action</h4><p>The lifecycle map covers first-value activation, trial expiry, mid-trial engagement, renewal, inactivity, lapse and feedback — with email, push and in-app cascades.</p><div class="logic"><div><b>Signal</b><span>behavior / subscription state</span></div><div><b>Decision</b><span>eligibility + timing + exclusion</span></div><div><b>Action</b><span>email / push / in-app</span></div><div><b>Outcome</b><span>purchase / upgrade / retention / exit</span></div></div></div>
+            <div class="proof-card"><p class="kicker">Hands-on orchestration</p><h4>I configure the mechanics myself</h4><p>Real CRM journeys include reachability checks, audience branching, delays, purchase conditions, cross-channel steps and exit logic. I also own email production and sending-domain health.</p><div class="logic"><div><b>CRM</b><span>Pushwoosh, Mindbox, Bloomreach/Exponea</span></div><div><b>Analytics</b><span>Amplitude, BI, spreadsheets</span></div><div><b>Email</b><span>responsive HTML/CSS, QA, deliverability</span></div><div><b>Testing</b><span>hypothesis → control → business readout</span></div></div></div>
+          </div>
+
+          <div class="gallery-head"><div><p class="kicker">Selected artifacts</p><h4>Strategy, execution and creative</h4></div><p>Click to enlarge</p></div>
+          <div class="gallery">
+            <button class="shot flow" data-src="assets/instories_pushwoosh_journey.png"><img src="assets/instories_pushwoosh_journey.png" alt="Instories Pushwoosh journey" loading="lazy"></button>
+            <button class="shot flow" data-src="assets/instories_lifecycle_map.png"><img src="assets/instories_lifecycle_map.png" alt="Instories lifecycle map" loading="lazy"></button>
+            <button class="shot email" data-src="assets/instories_email_main.png"><img src="assets/instories_email_main.png" alt="Instories monetization email" loading="lazy"></button>
+            <button class="shot email" data-src="assets/instories_email_design_team.png"><img src="assets/instories_email_design_team.png" alt="Instories product discovery email" loading="lazy"></button>
+          </div>
+        </article>
+
+        <article class="case">
+          <div class="case-top">
+            <div><p class="kicker">02 · KUPIBILET · TRAVEL / OTA</p><h3>Turned lifecycle CRM into a repeat-purchase and retention engine.</h3><p class="case-summary">I redesigned behavioral CRM in Mindbox across email, app push and web push, combining RFM, anti-churn, contextual cross-sell and channel cascades with technical QA of the data layer behind the journeys.</p></div>
+            <aside class="case-result green"><span>Primary result</span><strong>+18%</strong><small>repeat purchases from cascading email + push scenarios</small></aside>
+          </div>
+          <div class="result-row"><div class="result-mini"><strong>+12%</strong><span>retention from RFM + anti-churn automation</span></div><div class="result-mini"><strong>+25%</strong><span>active subscriber base after subscription-flow redesign</span></div><div class="result-mini"><strong>−15%</strong><span>unsubscribe rate after the same redesign</span></div></div>
+
+          <div class="story-grid">
+            <div class="story"><strong>Business problem</strong><p>Create more value after the first transaction and reduce leakage across the travel lifecycle.</p></div>
+            <div class="story"><strong>Segmentation</strong><p>RFM, travel behavior, geolocation, platform, purchase status and lifecycle activity.</p></div>
+            <div class="story"><strong>Mechanics</strong><p>Email → push cascades, abandoned behavior, price alerts, pre-trip cross-sell, reactivation and exclusions.</p></div>
+            <div class="story"><strong>Technical layer</strong><p>I audited event payloads and customer identification when broken data prevented users from entering CRM journeys.</p></div>
+          </div>
+
+          <div class="proof">
+            <div class="proof-card"><p class="kicker">Monetization example</p><h4>Contextual ancillary cross-sell</h4><p>Instead of generic add-on promotion, communications were tied to a concrete trip need: online check-in, extra baggage, insurance or refund protection before departure.</p><div class="logic"><div><b>Context</b><span>upcoming trip / booking</span></div><div><b>Need</b><span>save time / add baggage / reduce risk</span></div><div><b>Offer</b><span>relevant ancillary service</span></div><div><b>Goal</b><span>incremental transaction value</span></div></div></div>
+            <div class="proof-card"><p class="kicker">CRM operations</p><h4>Fixing the data foundation behind monetization</h4><p>I traced why users did or did not enter abandoned-view and booking scenarios, checked identifiers and payload fields, and translated findings into implementation requirements for product and development.</p><div class="logic"><div><b>Event</b><span>search / booking / purchase</span></div><div><b>Check</b><span>customer identity + device + subscription state</span></div><div><b>Impact</b><span>eligible users missing from journey</span></div><div><b>Action</b><span>fix transmission + re-test logic</span></div></div></div>
+          </div>
+
+          <div class="gallery-head"><div><p class="kicker">Selected artifacts</p><h4>Cross-sell communications</h4></div><p>Examples from the travel lifecycle</p></div>
+          <div class="gallery">
+            <button class="shot email" data-src="assets/kupibilet_checkin.png"><img src="assets/kupibilet_checkin.png" alt="Kupibilet online check-in cross-sell" loading="lazy"></button>
+            <button class="shot email" data-src="assets/kupibilet_suitcase.png"><img src="assets/kupibilet_suitcase.png" alt="Kupibilet baggage cross-sell" loading="lazy"></button>
+            <button class="shot email" data-src="assets/kupibilet_services.png"><img src="assets/kupibilet_services.png" alt="Kupibilet travel services cross-sell" loading="lazy"></button>
+            <button class="shot email" data-src="assets/kupibilet_rzd.png"><img src="assets/kupibilet_rzd.png" alt="Kupibilet repeat-purchase rail email" loading="lazy"></button>
+          </div>
+        </article>
+
+        <div class="secondary-cases">
+          <article class="mini-case"><p class="kicker">03 · SEPHORA · LOYALTY</p><h3>Monetizing a premium customer cohort</h3><strong class="metric">+7% AOV</strong><p>Designed and launched a premium-tier lifecycle trigger program for a new loyalty proposition and measured incremental sales and commercial KPIs.</p></article>
+          <article class="mini-case"><p class="kicker">04 · BEELINE · EXPERIMENTATION</p><h3>CRM testing at scale</h3><strong class="metric">120% KPI</strong><p>Ran A/B tests and omnichannel campaigns across email, push, in-app and stories, while coordinating the production team and improving delivery speed.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="approach" class="section">
+      <div class="shell">
+        <div class="section-head"><div><p class="eyebrow">HOW I WORK</p><h2>One loop: data → hypothesis → experiment → business effect.</h2></div><p>I am comfortable at both levels: choosing the monetization opportunity and configuring the actual CRM mechanics needed to test it.</p></div>
+        <div class="approach-grid">
+          <div class="step"><span class="num">01</span><h3>Diagnose</h3><p>Map CJM, funnels, cohorts and CRM data to locate a monetization or retention leak.</p></div>
+          <div class="step"><span class="num">02</span><h3>Size & design</h3><p>Define the segment, expected business effect, trigger, timing, exclusions and success metric.</p></div>
+          <div class="step"><span class="num">03</span><h3>Build & launch</h3><p>Configure the journey, prepare copy/templates, QA events and coordinate product or engineering dependencies.</p></div>
+          <div class="step"><span class="num">04</span><h3>Measure & scale</h3><p>Read the test through revenue, conversion, ARPU/ARPPU, repeat purchase, retention and churn — then iterate.</p></div>
+        </div>
+        <div class="stack">
+          <div class="stack-grid">
+            <div><p class="kicker">Hands-on channels</p><h3>Classic CRM + product-facing lifecycle</h3><p>Email, app push, web push, SMS, in-app messages and stories. Comfortable designing fallback logic and frequency rules across channels.</p></div>
+            <div><p class="kicker">Platforms</p><div class="stack-list"><span>Pushwoosh</span><span>Mindbox</span><span>Bloomreach / Exponea</span><span>MAPP</span><span>Mailchimp</span><span>Botmother</span></div></div>
+            <div><p class="kicker">Analytics</p><div class="stack-list"><span>Amplitude</span><span>AppsFlyer</span><span>Looker</span><span>Metabase</span><span>GA4</span><span>Excel</span><span>Google Sheets</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fit" class="section fit">
+      <div class="shell fit-box">
+        <div><p class="eyebrow">MONETIZATION FIT</p><h2>What I bring to a Senior CRM role.</h2><p>My strongest work sits at the intersection of CRM, product behavior, analytics and revenue. I can own an initiative from the initial business hypothesis through CRM implementation and post-test readout.</p></div>
+        <div class="fit-list">
+          <div class="fit-item"><span>1</span><div><b>Hypotheses from business data</b><p>CJM, lifecycle, loyalty, conversion, repeat purchase and retention signals become specific testable mechanics.</p></div></div>
+          <div class="fit-item"><span>2</span><div><b>Measured potential business effect</b><p>I frame CRM work around revenue and customer-value outcomes, not only engagement metrics.</p></div></div>
+          <div class="fit-item"><span>3</span><div><b>Hands-on experiment launch</b><p>I configure segments, triggers, journeys, copy and email production myself, then QA the data and delivery logic.</p></div></div>
+          <div class="fit-item"><span>4</span><div><b>High-value customer retention</b><p>RFM, premium loyalty cohorts, anti-churn and reactivation are part of my core lifecycle toolkit.</p></div></div>
+          <div class="fit-item"><span>5</span><div><b>Cross-functional ownership</b><p>I work directly with analytics, product, UX and development when a CRM hypothesis depends on events, APIs, deep links or product changes.</p></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-grid">
+      <div><p class="eyebrow">ELENA KRASNOGLAZOVA</p><h2>CRM that earns its place in the P&L.</h2><p>Buenos Aires · Remote · English B2 · Russian native</p></div>
+      <div class="footer-actions"><a class="btn primary" href="mailto:elenkar14@gmail.com">Email me</a><a class="btn secondary" href="assets/Elena_Krasnoglazova_CRM_Manager.pdf" target="_blank" rel="noopener">Open resume ↗</a></div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button class="close" aria-label="Close">×</button><img alt="Expanded portfolio artifact" /></div>
+  <script>
+    const box=document.getElementById('lightbox'), big=box.querySelector('img');
+    document.querySelectorAll('[data-src]').forEach(b=>b.addEventListener('click',()=>{big.src=b.dataset.src;box.classList.add('open');box.setAttribute('aria-hidden','false')}));
+    function close(){box.classList.remove('open');box.setAttribute('aria-hidden','true');big.src=''}
+    box.querySelector('.close').addEventListener('click',close);box.addEventListener('click',e=>{if(e.target===box)close()});document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+  </script>
+</body>
+</html>
