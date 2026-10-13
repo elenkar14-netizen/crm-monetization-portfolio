@@ -1,7 +1,7 @@
-# Elena Krasnoglazova — CRM Monetization & Lifecycle Portfolio
+# Elena Krasnoglazova — CRM Monetization & Lifecycle Portfolio 
+https://elenkar14-netizen.github.io/crm-monetization-portfolio/
 
 Static, dependency-free portfolio site optimized for Senior CRM / CRM Monetization roles.
-https://github.com/elenkar14-netizen/crm-monetization-portfolio
 
 ## Publish on GitHub Pages
 1. Create a new public repository, for example `crm-monetization-portfolio`.
